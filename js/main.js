@@ -1,5 +1,6 @@
 const btnDarkMode = document.querySelector('.dark-mode-btn')
 
+console.log('I am working')
 //1. ++++++++++ Проверка темной темы в системных настройках ++++++++++
 if (
 	window.matchMedia &&
