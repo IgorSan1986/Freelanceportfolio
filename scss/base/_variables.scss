@@ -1,0 +1,43 @@
+:root {
+	--primary-black: #171718;
+	--secondary-color: #5c62ec;
+	--black-border: #26262d;
+	--white: #fff;
+
+	--main-text-color: var(--primary-black);
+	--dark-bg: var(--primary-black);
+	--dark-border: var(--black-border);
+	--light-bg: var(--white);
+	--secondary-text-color: var(--white);
+	--accent: var(--secondary-color);
+
+	--dm-sans-font: "DM Sans", sans-serif;
+	--poppins-font: "Poppins", sans-serif;
+
+	--primary-font: var(--dm-sans-font);
+	--secondary-font: var(--poppins-font);
+
+	// Light Mode
+	--page-bg: var(--white);
+	--text-color: var(--main-text-color);
+
+	--title: var(--accent);
+
+	--project-card-bg: var(--white);
+	--project-card-text-color: var(--main-text-color);
+
+	--box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+}
+
+// Dark Mode
+.dark {
+	--page-bg: #252526;
+	--text-color: var(--secondary-text-color);
+
+	--title: var(--secondary-text-color);
+
+	--project-card-bg: var(--dark-bg);
+	--project-card-text-color: var(--secondary-text-color);
+
+	--box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.8);
+}
